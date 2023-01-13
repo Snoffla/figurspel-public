@@ -1,0 +1,30 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: #153247;
+}
+
+h1, h2, h3, h4 {
+  display: inline-block;
+}
+
+.error {
+  color: #dc3545
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+}
